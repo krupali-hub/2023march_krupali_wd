@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td
+        {
+    border: 3px solid black;
+}
+    
+    </style>
+</head>
+<body>
+    <hr style="height: 2px; background-color: black;">
+    <h4><mark>Que.10 How can we club two or more rows or columns into a single row or column in an HTML table?</mark></h4>
+    <p>Ans.:-</p>
+    <p>We use the colspan and rowspan attribute, to merge cells in HTML. The rowspan attribute is for the number of rows a cell should merge, whereas the colspan attribute is for the number of columns a cell should merge. The attribute
+        should be placed inside thetable data tag.</p>
+    <h4><u>rowspan:-</u></h4>
+    <p>The rowspan attribute specifies the number of rows a cell should span.</p>
+    <h4><u>colspan:-</u></h4>
+    <p>The colspan attribute defines the number of columns a table cell should span.</p>
+    <h5>example:-</h5>
+
+    <table>
+        <tr>
+            <th colspan="6">student's Record</th>
+        </tr>
+        <tr>
+            <th colspan="3">personal record</th>
+            <th colspan="3">academic record</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Name</th>
+            <th colspan="2">adress</th>
+            <th rowspan="2">marks</th>
+            <th rowspan="2">percentage</th>
+            <th rowspan="2">grade</th>
+        </tr>
+        <tr>
+            <th>zip code</th>
+            <th>city</th>
+        </tr>
+        <tr>
+            <td>manali</td>
+            <td>-</td>
+            <td>surat</td>
+            <td>98%</td>
+            <td>98%</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>sital</td>
+            <td>-</td>
+            <td>rajkot</td>
+            <td>98%</td>
+            <td>98%</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>radha</td>
+            <td>-</td>
+            <td>amareli</td>
+            <td>98%</td>
+            <td>98%</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>syam</td>
+            <td>-</td>
+            <td>mumbai</td>
+            <td>98%</td>
+            <td>98%</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>milan</td>
+            <td>-</td>
+            <td>baroda</td>
+            <td>98%</td>
+            <td>98%</td>
+            <td>A</td>
+        </tr>
+    </table>
+    <hr style="height: 2px; background-color: black;">
+</body>
+</html>
