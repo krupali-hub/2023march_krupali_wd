@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .A{
+            height: 50vh;
+            width: auto;
+            background: url(https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNpbXBsZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80); 
+            border: 4px solid black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap-reverse;
+            justify-content: center;
+            align-items: center;
+            /*align-content: flex-start;*/
+            
+        }
+        .itam{
+            height: 150px;
+            width: 150px;
+            /*background: linear-gradient(95deg,red, crimson, coral, orange, yellow); */
+             background: radial-gradient(navy, blue, lightblue, lightseagreen, seagreen, lightgreen); 
+            margin: 2px;
+            color:black;
+            font-size: 20px;
+            border: 1px solid;
+        }
+        .B{
+            
+            height: 50vh;
+            width: auto;
+            background: url(https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNpbXBsZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80); 
+            border: 4px solid black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap-reverse;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            height: 150px;
+            width: 150px;
+            /*background: linear-gradient(95deg,red, crimson, coral, orange, yellow); */
+             background: radial-gradient(navy, blue, lightblue, lightseagreen, seagreen, lightgreen); 
+            margin: 2px;
+            color:black;
+            font-size: 20px; 
+            border: 1px solid;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="A">
+        <div class="itam 1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, rerum?</div>
+        <div class="itam 2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, rerum?</div>
+        <div class="itam 3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, rerum?</div>
+        <div class="itam 4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, rerum?</div>
+    </div>
+    <div class="B">
+    <div class="box 1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, rerum?</div>
+    <div class="box 2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, rerum?</div>
+    <div class="box 3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, rerum?</div>
+    <div class="box 4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, rerum?</div>
+    </div>
+
+</body>
+</html>
