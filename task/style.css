@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Tilt+Prism&display=swap');
+
+
+      
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            height: 70px;
+            width: 100%;
+            padding: 5px 0px;
+            line-height: 70px;
+            position: fixed;
+        }
+        li{
+            font-weight: 600;
+            list-style: none;
+            display: inline;
+            margin: 2px;
+            padding: 12px 12px;
+            color: white;
+
+        }
+        ul li a{
+            color:black;
+    
+        }
+        .A{
+            margin-right: 250px;
+            font-family: 'Anton', sans-serif;
+            font-family: 'Tilt Prism', cursive;
+            font-size: 30px;
+        }
+        .B{
+            margin-left: 240px;
+        }
+        .navgetion {
+            text-align: center;
+            color:black;
+            height: 70px;
+            width:100% ;
+            background-color:white;
+            font-size: 20px;
+            line-height: 90px;
+            position: sticky;
+            top: 0px;
+        }
+        .perant{
+            position: relative;
+        }
+        .child-2{
+            position: absolute;
+            top: 150px;
+            left: 750px;
+        }
+        
+        .perant .child-1 .child-2 h1{
+            font-size: 40px;
+            font-family: sans-serif;
+            letter-spacing: 2px;
+        }   
+        .perant .child-1 .child-2 .p-1{
+            font-size: 20px;
+            font-family: sans-serif;
+            text-decoration: underline;
+        }
+        .perant .child-1 .child-2 .p-2{
+            margin-top: 5%;
+            font-size: 16px;
+            font-family: sans-serif;
+        }
+        .box{
+            position: relative;
+        }
+        .itam-2{
+            position: absolute;
+            top: 1300px;
+            left: 750px;
+        }
+        
+        .box .itam-1 .itam-2 h1{
+            font-size: 40px;
+            font-family: sans-serif;
+            letter-spacing: 2px;
+        }   
+        .box .itam-1 .itam-2 .y-1{
+            font-size: 20px;
+            font-family: sans-serif;
+            text-decoration: underline;
+        }
+        .box .itam-1 .itam-2 .y-2{
+            margin-top: 5%;
+            font-size: 16px;
+            font-family: sans-serif;
+        }
+        
