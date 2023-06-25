@@ -1,0 +1,89 @@
+ul{
+    margin: 0px;
+    padding: 15px 0px;
+    background-color:pink;
+    
+}
+li{
+    font-weight: 600;
+    list-style: none;
+    display: inline;
+    margin: 5px;
+    padding: 40px 50px;
+}
+li:hover{
+
+    color:red;
+}
+div{
+    height:200px;
+    width: 200px;
+    margin: 100px;
+    padding: 50px;
+    background-color:palevioletred;
+    border-top:5px solid red;
+    border-bottom: 5px solid gray;
+    border-left: 5px solid red;
+    border-right: 5px solid gray;
+
+}
+div:hover{
+    outline: 50px auto;
+    outline-offset: 10px;
+    outline-style: outset;
+}
+*{
+    background-image: url(https://files.123freevectors.com/wp-content/original/202631-plain-light-color-background-graphic.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.A{
+    height: 200px;
+    width: 30%;
+    background: radial-gradient(navy, blue, lightblue, lightseagreen, seagreen, lightgreen); 
+    border: 5px solid black;
+    text-align: center;
+    line-height: 200px;
+    font-size: 20px;
+}
+.B{
+    height: 200px;
+    width: 30%;
+    color: brown;
+    border: 5px solid black;
+    text-align: center;
+    line-height: 200px;
+    font-size: 20px;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+div{
+    height: 100px;
+    width: 500px;
+    border:  2px solid black;
+    background-image:url(https://images.pexels.com/photos/262713/pexels-photo-262713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+}
+.color{
+    height: 250px;
+    margin: 50px 100px;
+    background: grey;
+    border-color:black;
+    /* border-width: 20px; */
+    /* border-style: solid; */
+    /* border-style: dotted; */
+     border-style: double; 
+    border-style: ridge; 
+  /*  border-style: groove; */
+   /*  border-style: outset; */
+    /* border-style: none; */
+    /* border-style: hidden; */
+    /* border-top: 5px solid red; */
+    /* border-bottom: 5px solid red; */
+    /* border-left: 5px solid red; */
+    /* border-right: 5px solid red; */
+    /* border-radius: 50px; */
+    /* border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px; */
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    cursor: pointer;
+}
