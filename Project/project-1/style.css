@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+/* header start */
+header {
+    background-color: rgb(81, 80, 80);
+    height: 100px;
+}
+
+.header-1 {
+    float: left;
+}
+
+.header-2 {
+    float: right;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    color: white;
+    float: left;
+    clear: right;
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    margin-left: 5px;}
+
+span {
+    color: royalblue;
+}
+label {
+    color: white;
+}
+.head-2 .serch-bar{
+    float: left;
+    display: inline;
+    text-align: right;
+}
+
+input {
+    width: 300px;
+    margin-right: 0px;
+    margin-top: 10px;
+    padding: 7px;
+    
+    background-color: gray;
+}
+::placeholder{
+    color: #fff;
+}
+.head-2 span{
+    
+    color:black;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+}
+
+.head-1 {
+    float: right;
+    margin-top: 20px;
+}
+
+.head-2 {
+    float: right;
+    clear: right;
+}
+/* header end */
+/* nav start */
+ul {
+    background-color: black;
+    list-style-type: none;
+    overflow: auto;
+}
+
+ul li {
+    color: white;
+    font-size: 20px;
+    float: left;
+    padding: 18px;
+    line-height: 10px;
+    justify-content: space-between;
+    margin-right: 70px;
+    text-decoration: none;
+
+
+}
+
+.artical {
+    color: rgb(21, 189, 189);
+}
+/* nev end */
+
+/* content start */
+.item {
+    height: 150px;
+    width: 250px;
+    text-align: justify;
+    float: left;
+    padding: 2px;
+}
+
+.pop {
+    color: aqua;
+    float: right;
+}
+
+.item-1 {
+    height: 100px;
+    width: 50%;
+    text-align: justify;
+}
+.item-2 {
+    height: 100px;
+    width: 50%;
+    text-align: justify;
+}
+.item-3 {
+    height: 100px;
+    width: 50%;
+    text-align: justify;
+}
+.item-4 {
+    height: 100px;
+    width: 50%;
+    text-align: justify;
+}
+
+.key {
+    float: left;
+    background-color: white;
+    border: 1px white;
+    height: 210px;
+    margin-top: -55px;
+}
+
+.keybord {
+    float: left;
+    background-color: white;
+    border: 1px black;
+    height: 263px;
+    margin-top: 10px;
+    height: 210px;
+}
+
+.start {
+    float: left;
+    background-color: white;
+    border: 1px white;
+    height: 253px;
+    margin-top: 10px;
+    height: 210px;
+}
+
+p {
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+img {
+    overflow: auto;
+    float: left;
+    margin-right: 10px;
+    margin-left: 3px;
+}
+
+button {
+    background-color: rgb(63, 62, 62);
+    color: white;
+}
+
+i {
+    float: right;
+}
+
+.product {
+    width: 100%;
+    height: auto;
+}
+
+.main {
+    width: 60%;
+    margin-top: 70px;
+    margin-right: 50px;
+    margin-left: 10px;
+
+}
+
+.advertise {
+    float: left;
+    width: 10%;
+    margin-top: -430px;
+    margin-right: 40px;
+    margin-left: 350px;
+}
+.loop-1{
+    border: 10px solid white;
+     height: 160px;
+      width: 220px; 
+      background-color: rgb(210, 208, 208);
+}
+.loop-2{
+    text-align: center;
+     margin-top: 15px; 
+}
+.loop-3{
+    border: 10px solid white;
+     height: 360px;
+      width: 220px; 
+      background-color: rgb(210, 208, 208);
+      margin-top: 10px;
+}
+.menu-bar {
+    float: left;
+    width: 20%;
+    margin-top: -430px;
+    color: black;
+    background-color: white;
+    margin-left: 20px;
+}
+table {
+    width: 100%;
+    text-align: left;
+    height: 400px;
+}
+.menu {
+    background-color:darkslategray;
+    color: white;
+}
+/* content end */
+
+.auto{
+    clear: both;
+}
+/* footer start */
+.footer {
+    height: 60px;
+    background-color:dimgray;
+    color: aliceblue;
+    clear: both;
+    margin-top: 10px;
+}
+ 
+.fa-star {
+    color: yellow;
+    float: left;
+}
+
+.fa-message {
+    float: left;
+}
+
+.foot-1 {
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.foot-2 {
+    float: right;
+    margin-right: 800px;
+    clear: left;
+    margin-top: -18px;
+}
+
+.foot-3 {
+    float: left;
+    margin-left: 40px;
+    color: aqua;
+    margin-top: 5px;
+}
+
+.foot-4 {
+    float: right;
+    margin-right: 650px;
+    color: aqua;
+    margin-top:5px;
+}
+/* footer end */
+
+
