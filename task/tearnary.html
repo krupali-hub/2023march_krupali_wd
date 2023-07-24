@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarnary</title>
+</head>
+<body>
+    Enter your age:
+    <input type="text" name="" id="inp" value="">
+    <button type="button" onclick="check()">cheak</button>
+
+
+    <script>
+        function check() {
+            let inp = parseInt(document.getElementById("inp").value);
+        document.write(inp); 
+
+        let age = (inp>=18) ? ("congratulation, you are aligible for vote.") :("sorry, you aren't eligible");
+        document.write("<br>");
+        document.write(age);}
+    </script>
+        
+</body>
+</html>
