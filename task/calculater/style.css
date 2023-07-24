@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
+}
+body{
+    background-color:lightblue;
+}
+.menu{
+    height: 650px;
+    width: 500px;
+    position: relative;
+  
+    margin: auto;
+}
+.div{
+    height: 100px;
+    width: 500px;
+    border-radius: 15px;
+    background-color:white;
+    border: none;
+    color: White;
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+}
+.date{
+    position: absolute;
+    top: 170px ;
+    background-image: url("../image/back.webp");
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    border-radius: 15px;
+    background-color:white;
+}
+.post{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 18px;
+    border: none;
+}
+
+.most{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 18px;
+    border: none;
+    background-color:blue;
+    color: white;
+}
+.pop{
+    width: 226px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 18px;
+    border: none;
+    background-color:grey;
+    color: white;
+}
+.posted{
+    width: 221px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 18px;
+    border: none;
+    background-color:gray;
+    color: white;
+}
