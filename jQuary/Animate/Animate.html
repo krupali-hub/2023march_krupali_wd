@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        div{
+            height: 150px;
+            width: 150px;
+            /* background: coral; */
+            border: 10px solid red;
+            border-radius: 50%;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('button').click(function(){
+                $('div').animate({
+                    height: 'toggle',
+                    width: 'hide', 
+                    opacity: 0.5
+                }, 'slow');
+                $('div').animate({
+                  height: '+=150px',
+                    width: '+=150px',
+                    opacity: 1
+                }, 5000);
+            });
+        });
+    </script>
+</head>
+<body>        
+    <div></div>
+    <button>Click Me</button>
+</body>
+</html>
