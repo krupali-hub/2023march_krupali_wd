@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FadeTo</title>
+    <style>
+        div{
+            height: 250px;
+            width: 500px;
+            background: lightblue;
+            border: 10px solid blue;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('button').click(function(){
+                $('div').fadeTo('slow', 0.3);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div></div>
+    <button type="button">Click me</button>
+</body>
+</html>
